@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.header{
+    background-color: rgb(55, 53, 53);
+    color:white;
+    padding:2rem;
+}
+.choices{
+    padding: 2rem;
+}
+
+ .choices img{
+    margin: 0rem 1rem;
+    object-fit: cover;
+    width:125px;
+     height:125px;
+     border-radius: 50%;
+}
+ .choices img:hover{
+    cursor: pointer;
+    border: 4px solid black;
+}
+ button{
+    font-size: 1rem;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+    border-radius:1rem;
+    margin: auto;
+    cursor: pointer;
+}
+.score{
+    font-size: 2rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+.score div p:nth-child(2){
+  font-size: 1.2rem;
+}
